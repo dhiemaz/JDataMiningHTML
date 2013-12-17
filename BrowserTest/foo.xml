@@ -1,0 +1,338 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+    
+        
+<title></title>
+        
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/selectorgadget/lib/selectorgadget.css">
+<script type="text/javascript" src="http://localhost/selectorgadget/vendor/jquery-1.2.6.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/selectorgadget/lib/selectorgadget.css">
+<script type="text/javascript" src="http://localhost/selectorgadget/vendor/jquery-1.2.6.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/vendor/diff/diff_match_patch.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/vendor/diff/diff_match_patch.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/dom.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/dom.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/interface.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/interface.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/selectorgadget/lib/selectorgadget.css">
+<script type="text/javascript" src="http://localhost/selectorgadget/vendor/jquery-1.2.6.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/vendor/diff/diff_match_patch.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/dom.js"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/interface.js"></script>
+</head>
+<body>
+        
+<p>
+            Percobaan tabel ekstraksi
+        </p>
+<div>
+            
+<table border="1" align="center" style="">
+                
+<tbody>
+<tr align="center">
+                    
+<td>a</td> 
+                    <td>b</td>
+                    <td>c</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>d</td>
+                    <td>e</td>
+                    <td>f</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>g</td>
+                    <td>h</td>
+                    <td>i</td>
+                
+</tr>                
+            
+</tbody>
+</table>
+            
+<br>
+            
+<table border="1" align="center" class="sg_selected">
+                
+<caption>Customer Account Balances - January 1, 2000</caption>
+                
+<tbody>
+<tr>
+                    
+<th>ACCOUNT</th>
+                    <th>NAME</th>
+                    <th>BALANCE</th>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>0000001</td>
+                    <td><a href="http://jsoup.org/cookbook/extracting-data/dom-navigation">Customer1</a></td>
+                    <td>100.00</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>0000002</td>
+                    <td>Customer2</td>
+                    <td>200.00</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>0000003</td>
+                    <td>Customer3</td>
+                    <td>550.00</td>
+                
+</tr>
+            
+</tbody>
+</table>
+            
+<br>
+            
+<table border="1" align="center">                
+                
+<tbody>
+<tr align="center">
+                    
+<td width="75" rowspan="2" colspan="2">A</td>
+                    <td width="150" colspan="2">B</td>
+                
+</tr>
+                
+<tr align="center">                    
+                    
+<td>C</td>
+                    <td>D</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td rowspan="3">E</td>
+                    <td>F</td>
+                    <td>1</td>
+                    <td>2</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>G</td>
+                    <td>3</td>
+                    <td>4</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>H</td>
+                    <td>5</td>
+                    <td>6</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td colspan="2">I</td>
+                    <td>7</td>
+                    <td>8</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td colspan="2">J</td>
+                    <td>9</td>
+                    <td>10</td>
+                
+</tr>
+            
+</tbody>
+</table>
+            
+<br>
+            
+<table border="1" align="center">
+                
+<caption>Tabel untuk ekstraksi</caption>
+                
+<tbody>
+                
+<tr align="left">
+                    
+<td colspan="4">ekstrak tabel ini! </td>                 
+                
+</tr>
+                
+<tr>
+                    
+<td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td width="75" rowspan="2">A</td>
+                    <td width="150" colspan="2">B</td>
+                    <td width="75" rowspan="2">E</td>
+                
+</tr>
+                
+<tr align="center">                    
+                    
+<td>C</td>
+                    <td>D</td>
+
+                
+</tr>
+                
+<tr align="center">                    
+                    
+<td>F</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>G</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>H</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>I</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>J</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                
+</tr>
+                
+</tbody>
+            
+</table>
+            
+<br>
+            
+<table border="1" align="center">
+
+                
+<tbody>
+<tr align="center">
+                    
+<td rowspan="2" colspan="2">Class/Extension</td>
+                    <td colspan="2">1999.04.01-2000.03.31</td>
+                
+</tr>
+                
+<tr align="center">                    
+                    
+<td>Economic Class</td>
+                    <td>Extension</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td rowspan="3">Adult</td>
+                    <td>Single Room</td>
+                    <td>35,450</td>
+                    <td>2,510</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>Double Room</td>
+                    <td>32,500</td>
+                    <td>1,430</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>Extra Bed</td>
+                    <td>30,550</td>
+                    <td>720</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td rowspan="3">Child</td>
+                    <td>Occupation</td>
+                    <td>25,800</td>
+                    <td>1,430</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>Extra Bed</td>
+                    <td>23,850</td>
+                    <td>720</td>
+                
+</tr>
+                
+<tr align="center">
+                    
+<td>No Occupation</td>
+                    <td>22,900</td>
+                    <td>360</td>
+                
+</tr>
+            
+</tbody>
+</table>
+
+        
+</div>
+    
+<script type="text/javascript" src="http://localhost/selectorgadget/lib/selectorgadget.js?raw=true"></script><script type="text/javascript" src="http://localhost/selectorgadget/lib/selectorgadget.js?raw=true"></script><img src="http://www.google-analytics.com/__utm.gif?utmwv=1&amp;utmn=8575282719&amp;utmsr=-&amp;utmsc=-&amp;utmul=-&amp;utmje=0&amp;utmfl=-&amp;utmdt=-&amp;utmhn=www.selectorgadget.com&amp;utmr=http%3A%2F%2Flocalhost%2FCobaSederhana.html&amp;utmp=sg&amp;utmac=UA-148948-9&amp;utmcc=__utma%3D53485191.1712215044.1374400938.1374400938.1374400938.2%3B%2B__utmb%3D53485191%3B%2B__utmc%3D53485191%3B%2B__utmz%3D53485191.1374400938.2.2.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)%3B%2B__utmv%3D53485191.-%3B"><script type="text/javascript" src="http://localhost/selectorgadget/lib/selectorgadget.js?raw=true"></script>
+<div id="_sg_div" class="sg_top sg_ignore">
+<input id="_sg_path_field" class="sg_ignore"><input type="button" value="Clear" class="sg_ignore"><input type="button" value="Toggle Position" class="sg_ignore"><input type="button" value="X" class="sg_ignore">
+</div>
+<div class="sg_border sg_border_red" style="height: 5px; display: none; width: 257px; top: 147px; left: 498px;"></div>
+<div class="sg_border sg_bottom_border sg_border_red" style="height: 11px; display: none; width: 252px; top: 264px; left: 498px;">div table</div>
+<div class="sg_border sg_border_red" style="width: 5px; display: none; height: 112px; top: 152px; left: 498px;"></div>
+<div class="sg_border sg_border_red" style="width: 5px; display: none; height: 112px; top: 152px; left: 750px;"></div>
+</body>
+</html>
